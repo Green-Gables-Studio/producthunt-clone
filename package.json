@@ -12,9 +12,15 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@emotion/core": "^10.0.35",
+    "@emotion/styled": "^10.0.27",
+    "@styled-system/should-forward-prop": "^5.1.5",
+    "emotion": "^10.0.27",
+    "emotion-server": "^10.0.27",
     "next": "9.5.5",
     "react": "17.0.0",
-    "react-dom": "17.0.0"
+    "react-dom": "17.0.0",
+    "styled-system": "^5.1.5"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
@@ -24,6 +30,7 @@
     "@storybook/react": "^6.0.26",
     "@types/node": "^14.14.2",
     "@types/react": "^16.9.53",
+    "@types/styled-system": "^5.1.10",
     "@typescript-eslint/eslint-plugin": "^4.5.0",
     "@typescript-eslint/parser": "^4.5.0",
     "babel-loader": "^8.1.0",
