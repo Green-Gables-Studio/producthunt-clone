@@ -13,6 +13,7 @@ const HiringBox = () => {
       backgroundSize="cover"
       padding="20px 20px 20px 40px"
       backgroundImage="url('https://ph-static.imgix.net/jobs/jobs_cta_background.png?auto=format&auto=compress')"
+      margin="20px 0px"
     >
       <Div
         fontFamily={theme.fonts.system}
