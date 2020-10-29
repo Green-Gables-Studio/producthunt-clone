@@ -8,7 +8,7 @@ const HiringBox = () => {
   return (
     <Div
       backgroundColor="#da552f"
-      borderRadius="3px"
+      borderRadius="5px"
       backgroundPosition="50%"
       backgroundSize="cover"
       padding="20px 20px 20px 40px"
