@@ -26,9 +26,10 @@ const JobsBox: FC<any> = (props) => {
     <Div
       backgroundColor="#fff"
       padding="20px"
-      boxShadow="#e5e5e5"
+      boxShadow="0 1px 2px 0 rgba(0,0,0,.1)"
       borderRadius="5px"
-      className="JobsBOx"
+      className="JobsBox"
+      fontFamily={theme.fonts.system}
       {...props}
     >
       <Div marginLeft="20px">
@@ -79,6 +80,7 @@ const JobsBox: FC<any> = (props) => {
               display="flex"
               flexDirection="row"
               justifyContent={[null, 'flex-end']}
+              fontFamily={theme.fonts.system}
             >
               💎
             </Div>
