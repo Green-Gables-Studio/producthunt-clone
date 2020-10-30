@@ -51,8 +51,8 @@ const Jobs = () => {
             >
               Filters
             </Div>
-            <FilterBox />
-            <SubscribeBox mt="20px" />
+            <FilterBox mb="20px" />
+            <SubscribeBox />
           </Cell>
         </Grid>
       </StyledMain>
