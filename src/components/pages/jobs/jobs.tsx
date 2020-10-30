@@ -49,7 +49,7 @@ const Jobs = () => {
               Filters
             </Div>
             <FilterBox />
-            <SubscribeBox mt="20px" mb="20px" />
+            <SubscribeBox mt="20px" />
           </Cell>
         </Grid>
       </StyledMain>
