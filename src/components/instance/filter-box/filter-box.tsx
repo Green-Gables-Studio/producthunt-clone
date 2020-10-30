@@ -1,16 +1,17 @@
-import React from 'react';
+import React, { FC } from 'react';
 import Div from '../../styled-system/div/div';
 import Label from '../../styled-system/label/label';
 import Input from '../../styled-system/input/input';
 import { theme } from '../../../styles/theme';
 
-const FilterBox = () => {
+const FilterBox: FC<any> = (props) => {
   return (
     <Div
       backgroundColor="#ffffff"
       padding="20px"
       borderRadius="5px"
       boxShadow="0 1px 2px 0 rgba(0,0,0,.1)"
+      {...props}
     >
       <Div
         lineHeight="20px"
