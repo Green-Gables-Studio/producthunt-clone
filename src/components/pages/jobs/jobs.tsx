@@ -24,10 +24,12 @@ const Jobs = () => {
             <Div
               fontSize="20px"
               fontWeight="600"
+              lineHeight="32px"
+              fontFamily={theme.fonts.system}
               mb="20px"
+              mt="30px"
               paddingTop="4px"
               paddingBottom="4px"
-              fontFamily={theme.fonts.system}
             >
               Jobs
             </Div>
@@ -36,7 +38,7 @@ const Jobs = () => {
             <JobsBox mb="20px" />
           </Cell>
           <Cell width={[1, 0, 1 / 3]} display={[null, 'none', 'block']}>
-            <HiringBox />
+            <HiringBox marginTop={['20px', '20px', '90px']} />
             <Div
               fontSize="16px"
               lineHeight="18px"
