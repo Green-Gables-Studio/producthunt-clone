@@ -10,6 +10,11 @@ import Main from '../../styled-system/main/main';
 import FilterBox from '../../instance/filter-box/filter-box';
 import SubscribeBox from '../../instance/subscribe-box/subscribe-box';
 
+const JobsBoxes = [];
+for (let i = 0; i < 10; i += 1) {
+  JobsBoxes.push(<JobsBox mb="20px" />);
+}
+
 const StyledMain = styled(Main)`
   background-color: #efefef;
 `;
@@ -33,9 +38,7 @@ const Jobs = () => {
             >
               Jobs
             </Div>
-            <JobsBox mb="20px" />
-            <JobsBox mb="20px" />
-            <JobsBox mb="20px" />
+            {JobsBoxes}
           </Cell>
           <Cell width={[1, 0, 1 / 3]} display={[null, 'none', 'block']}>
             <HiringBox marginTop={['20px', '20px', '90px']} />
