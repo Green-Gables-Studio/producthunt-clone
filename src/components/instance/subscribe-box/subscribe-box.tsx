@@ -9,15 +9,15 @@ import styled from '@emotion/styled';
 
 const StyledButton = styled(Button)`
   transition: background-color 0.3s;
+  cursor: pointer;
 
   &:hover {
     background-color: #e4461b;
-    cursor: pointer;
   }
 `;
 
 const StyledInput = styled(Input)`
-  transition: background-color 0.3s;
+  transition: border-color 0.3s;
 
   &:hover {
     border-color: rgba(47, 160, 255, 0.4);
@@ -31,8 +31,8 @@ const SubscribeBox: FC<any> = (props) => {
       padding="20px"
       borderRadius="5px"
       boxShadow="0 1px 2px 0 rgba(0,0,0,.1)"
-      {...props}
       fontFamily={theme.fonts.system}
+      {...props}
     >
       <Div fontSize="16px" fontWeight="400" lineHeight="24px" marginBottom="10px">
         Don’t miss your dream job
