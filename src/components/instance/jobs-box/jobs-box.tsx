@@ -28,7 +28,6 @@ const JobsBox: FC<any> = (props) => {
       padding="20px"
       boxShadow="0 1px 2px 0 rgba(0,0,0,.1)"
       borderRadius="5px"
-      className="JobsBox"
       fontFamily={theme.fonts.system}
       {...props}
     >
