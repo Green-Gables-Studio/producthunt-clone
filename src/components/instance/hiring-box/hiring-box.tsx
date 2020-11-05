@@ -1,19 +1,20 @@
-import React from 'react';
+import React, { FC } from 'react';
 import Button from '../../styled-system/button/button';
 import Div from '../../styled-system/div/div';
 import { theme } from '../../../styles/theme';
 import A from '../../styled-system/a/a';
 
-const HiringBox = () => {
+const HiringBox: FC<any> = (props) => {
   return (
     <Div
       backgroundColor="#da552f"
-      borderRadius="3px"
+      borderRadius="5px"
       backgroundPosition="50%"
       backgroundSize="cover"
       padding="20px 20px 20px 40px"
       backgroundImage="url('https://ph-static.imgix.net/jobs/jobs_cta_background.png?auto=format&auto=compress')"
       margin="20px 0px"
+      {...props}
     >
       <Div
         fontFamily={theme.fonts.system}
