@@ -33,7 +33,7 @@ const FilterBox: FC<any> = (props) => {
         </Label>
         <Label
           marginBottom="10px"
-          fontWeight="400!important"
+          fontWeight="400"
           lineHeight="20px"
           fontSize="13px"
           fontFamily={theme.fonts.system}
@@ -43,7 +43,7 @@ const FilterBox: FC<any> = (props) => {
         </Label>
         <Label
           marginBottom="10px"
-          fontWeight="400!important"
+          fontWeight="400"
           lineHeight="20px"
           fontSize="13px"
           fontFamily={theme.fonts.system}
@@ -53,7 +53,7 @@ const FilterBox: FC<any> = (props) => {
         </Label>
         <Label
           marginBottom="10px"
-          fontWeight="400!important"
+          fontWeight="400"
           lineHeight="20px"
           fontSize="13px"
           fontFamily={theme.fonts.system}
@@ -63,7 +63,7 @@ const FilterBox: FC<any> = (props) => {
         </Label>
         <Label
           marginBottom="10px"
-          fontWeight="400!important"
+          fontWeight="400"
           lineHeight="20px"
           fontSize="13px"
           fontFamily={theme.fonts.system}
@@ -71,12 +71,7 @@ const FilterBox: FC<any> = (props) => {
           <Input type="checkbox" margin="0px 10px 0px 0px"></Input>
           💖 Customer Support
         </Label>
-        <Label
-          fontWeight="400!important"
-          lineHeight="20px"
-          fontSize="13px"
-          fontFamily={theme.fonts.system}
-        >
+        <Label fontWeight="400" lineHeight="20px" fontSize="13px" fontFamily={theme.fonts.system}>
           <Input type="checkbox" margin="0px 10px 0px 0px"></Input>
           💎 Product
         </Label>
